@@ -14,3 +14,4 @@ sinvader.cpp is the game{
   WASD movement ie. "A" to move left, "D" to move right
   SPACE to shoot
 }
+Code can be modified to become an entirely new game
