@@ -2,7 +2,7 @@
 Simple game engine customised for **Retro Scroller Shooter** type of game. It can easily be customised for other type of game.  
 Initially made for running in DOS-Box within limited RAM of 64KB.
 # Files
-.txt files are the sprites of in game objects like ship, bullet, asteroids, backgrounds, etc. These files are created by PDRAWB2.cpp. Following are the descriptions of the code files.
+Text files(.txt) are the sprites of in game objects like ship, bullet, asteroids, backgrounds, etc. These files are created by PDRAWB2.cpp. Following are the descriptions of the code files.
 ## PDRAWB2.cpp
 This is sprite drawing program that eases the process of drawing line between pixels and filling colors. The sprites can have maximum of 5 frames of different images like in a gif type file.  
 Instructions for use:  
@@ -31,10 +31,11 @@ sinvader.cpp is the bulk of game engine. There are unused parts like rotate whic
 - Step: Actions to perform on each run frame
 - End: When object is destroyed, what actions to do
 
-Currently this engine uses only the first two. The third isn't required because objects aren't destroyed. When bullets vanish from screen they goto position outside the screen. There are only 7 instances of bullets at any time. No more bullets are created due to limited memory limit. Same thing lies for the asteroid.  
+Currently this engine uses only the first two. The third isn't required because objects aren't destroyed.  
+When bullets vanish from screen they goto position outside the screen. There are only 7 instances of bullets at any time. No more bullets are created due to limited memory limit. Same thing lies for the asteroid.  
 # Controls
-- WASD movement ie. "A" to move left, "D" to move right
-- SPACE to shoot   
+- *A* to move left, *D* to move right
+- SPACE to shoot
 # Screenshots
 
 # Conclusion
