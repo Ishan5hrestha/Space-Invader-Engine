@@ -30,8 +30,12 @@ sinvader.cpp is the bulk of game engine. There are unused parts like rotate whic
 - Initialise: Actions to perform when room starts
 - Step: Actions to perform on each run frame
 - End: When object is destroyed, what actions to do
+
 Currently this engine uses only the first two. The third isn't required because objects aren't destroyed. When bullets vanish from screen they goto position outside the screen. There are only 7 instances of bullets at any time. No more bullets are created due to limited memory limit. Same thing lies for the asteroid.  
-Controls:
+# Controls
 - WASD movement ie. "A" to move left, "D" to move right
 - SPACE to shoot   
-Code can be modified to become an entirely new game  
+# Screenshots
+
+# Conclusion
+I always dreamt of making my own game engine using which to make games. Made this game for Computer graphics project. Though this engine is incomplete, there will not be any further development. There are many good, efficient and powerful games engines some of which are free. It would be very foolish to begin working on an entire engine from scratch just to make some game which could be made with ease and of better quality using existing game engines. Various open source game engines are Godot, Armory3D, etc. 
