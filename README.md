@@ -1,5 +1,5 @@
 # Space Invader Engine  
-Simple game engine customised for **Retro Scroller Shooter** type of game. It can easily be customised for other type of game.  
+Simple game engine made in C++ customised for **Retro Scroller Shooter** type of game. It can easily be customised for other type of game.  
 Initially made for running in DOS-Box within limited RAM of 64KB.  
 Watch video [here](https://youtu.be/BWVYrutAwHo)
 # Files
